@@ -1,4 +1,4 @@
-# Sign-to-Text Conversion
+# ASL Sign-to-Text Conversion
 
 A real-time American Sign Language alphabet recognition project that converts hand signs captured through a webcam into predicted text. The project compares Random Forest, convolutional neural network, and YOLOv8 approaches across datasets collected from one user and multiple participants.
 
@@ -66,10 +66,15 @@ The final phase used YOLOv8 to train across all 26 alphabet classes. The data wa
 - Improve recognition of letters confused by the YOLOv8 model
 - Extend alphabet recognition to words and continuous signing
 
+## Running the project
+
+- download the [requirements](requirements.txt)
+- download the [running-the-project.md](Running-the-Project.md) for detailed instructions
+
 ## Preview
 
-<!-- Add screenshots after creating an assets folder:
-![Live sign prediction](assets/live-prediction.png)
-![YOLOv8 confusion matrix](assets/yolov8-confusion-matrix.png)
-![Training results](assets/training-results.png)
--->
+![Live sign prediction](results/CNN-K-alphabet.png)
+![YOLOv8 confusion matrix](results/yolov8-confusion-matrix.png)
+![Training and Validation results](results/yolov8-train.png)
+
+Demonstration: [ASL sign-to-text-conversion](https://youtu.be/JZ1K_CuNqrA?si=8xVXJ5neGzv7GiTM)
