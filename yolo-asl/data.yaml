@@ -1,0 +1,6 @@
+train: D:\project\Train
+val: D:\project\Valid
+test: D:\project\Test
+
+nc: 27
+names: ['A','B','C','D','E','F','G','F','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
