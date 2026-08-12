@@ -74,7 +74,13 @@ The final phase used YOLOv8 to train across all 26 alphabet classes. The data wa
 ## Preview
 
 ![Live sign prediction](results/CNN-K-alphabet.png)
+---
+
 ![YOLOv8 confusion matrix](results/yolov8-confusion-matrix.png)
+---
+
 ![Training and Validation results](results/yolov8-train.png)
+---
 
 Demonstration: [ASL sign-to-text-conversion](https://youtu.be/JZ1K_CuNqrA?si=8xVXJ5neGzv7GiTM)
+---
